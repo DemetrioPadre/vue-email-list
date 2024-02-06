@@ -1,0 +1,21 @@
+body {
+    background-image: url(./codici.avif);
+    object-fit: cover;
+}
+
+h1 {
+    color: red;
+}
+
+.listContainer {}
+
+p {
+
+    border: 1 px solid black;
+    border-radius: 10px;
+    color: white;
+    line-height: 200px;
+    padding: 20px;
+    margin: 10px;
+
+}

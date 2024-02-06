@@ -28,8 +28,16 @@
 
 <body>
     <div id="app">
-        <div class="container">
-            <h1>{{title}}</h1>
+        <div class="container ">
+            <div class="d-flex row text-center">
+                <h1>{{ title }}</h1>
+                <div class="listContainer d-flex text-center col-3" v-for="list in list">
+                    <p>{{ list }}</p>
+                </div>
+
+            </div>
+
+
         </div>
     </div>
 
